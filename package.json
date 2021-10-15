@@ -5,10 +5,14 @@
         "ali-ddns": "./index.js",
         "ddns": "./index.js"
     },
+    "keywords": [
+        "阿里云",
+        "DDNS",
+        "nas",
+        "群辉"
+    ],
     "dependencies": {
-        "yargs": "^17.2.1"
-    },
-    "devDependencies": {
+        "yargs": "^17.2.1",
         "aliyun-apisign": "latest"
     }
 }
