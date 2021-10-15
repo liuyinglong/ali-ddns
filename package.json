@@ -1,6 +1,6 @@
 {
     "name": "ali-ddns",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "bin": {
         "ali-ddns": "./index.js",
         "ddns": "./index.js"
