@@ -43,6 +43,23 @@ yargs.option("c", {
 
 let options = yargs.argv
 
+if(!options.accessKeyId){
+    console.log("accessKeyId 不能为空")
+    return
+}
+if(!options.accessKeySecret){
+    console.log("accessKeySecret 不能为空")
+    return
+}
+if(!options.domain){
+    console.log("domain 不能为空")
+    return
+}
+if(!options.subDomain){
+    console.log("subDomain 不能为空")
+    return
+}
+
 
 let aliClient = new AliCloudClient({
     AccessKeyId: options.accessKeyId,
